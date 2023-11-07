@@ -76,10 +76,11 @@ nav a {
     text-align: center;
     padding: 1rem;
     text-decoration: none;
+    border: 1px solid transparent;
 }
 
 nav a:hover {
-    border: 1px solid #fff;
+    border: 1px solid rgb(122, 131, 178);
 }
 
 .active {
@@ -102,5 +103,5 @@ footer {
 }
 
 #lastModified {
-    color: #e07a5f;
+    color: rgb(168, 137, 61);
 }
