@@ -1,0 +1,13 @@
+/* Media query for larger screens */
+@media (min-width: 640px) {
+    nav ul {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 4fr;
+    }
+}
