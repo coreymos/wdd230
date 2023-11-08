@@ -1,7 +1,7 @@
 body {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300; /* Using the 300 weight for Poppins */
-  color: #693b3b;
+  color: #3d2828;
   background-color: rgb(225, 220, 240);
 }
 
@@ -45,11 +45,11 @@ main h2 {
     display: block;
     list-style-type: none;
     grid-row: 2;
-    margin: 20px auto; /* Added some margin for visual separation */
-    padding: 20px; /* Padding inside the card */
-    background-color: rgba(61, 152, 188, 0.544); /* Background color for the card */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Shadow effect */
-    border-radius: 10px; /* Optional: for rounded corners */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(61, 152, 188, 0.544);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
 }
 
 .card h3 {
@@ -60,10 +60,10 @@ main h2 {
     list-style-type: none;
     padding-left: 0;
     grid-row: 2;
-    background-color: #fff; /* Set the background color to white */
-    margin: 0; /* Reset default margin */
-    padding: 1em; /* Add some padding */
-    border-radius: 5px; /* Optional: if you want rounded corners */
+    background-color: #fff;
+    margin: 0;
+    padding: 1em;
+    border-radius: 5px;
 }
 
 .card li {
@@ -118,5 +118,5 @@ footer {
 }
 
 #lastModified {
-    color: rgb(168, 137, 61);
+    color: rgb(0, 0, 0);
 }
