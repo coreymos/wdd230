@@ -15,6 +15,16 @@ header {
     margin: 0 auto;
 }
 
+header img {
+    max-height: 10%;
+    max-width: 10%; 
+    height: auto;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+
 main {
     display: block;
     width: 100%;
@@ -54,6 +64,11 @@ main h2 {
     margin: 0; /* Reset default margin */
     padding: 1em; /* Add some padding */
     border-radius: 5px; /* Optional: if you want rounded corners */
+}
+
+.card li {
+    margin-bottom: 2.5px;
+    padding: 5px 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
