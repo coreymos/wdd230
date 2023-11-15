@@ -1,0 +1,51 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #5C4033; /* Warm dark brown for text */
+    background-color: #FFF8DC; /* Calm cream background */
+}
+
+header, footer {
+    background-color: #DEB887; /* Warm tan color */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #8B4513; /* Saddle brown color for headings */
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #D2B48C; /* Tan border */
+    border-radius: 5px;
+}
+
+#color-schema, #typography {
+    background-color: #FFEFD5; /* Papaya whip for section backgrounds */
+}
+
+ul {
+    list-style-type: square;
+}
+
+.color-display {
+    padding: 10px;
+    margin: 10px 0;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.font-sample-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.font-sample-body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
