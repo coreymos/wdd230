@@ -1,0 +1,20 @@
+@media only screen and (max-width: 32rem) { /* Adjust the max-width as needed */
+    #hamburger-btn {
+      display: block;
+    }
+  
+    #menu-items {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 32rem) {
+    #hamburger-btn {
+      display: none;
+    }
+  
+    #menu-items {
+      display: block;
+    }
+  }
+  
