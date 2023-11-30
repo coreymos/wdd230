@@ -4,6 +4,15 @@ body {
     padding: 0;
 }
 
+/* Centering the header content */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 /* Centering the main content */
 main {
     display: flex;
@@ -17,7 +26,7 @@ main {
 img {
     display: block; /* makes the image a block element */
     margin: 10px auto; /* centers the image and adds spacing */
-    width: 90%; /* adjust this as per your design needs */
+    width: 100%; /* adjust this as per your design needs */
     max-width: 400px; /* maximum width of images */
     opacity: 0; /* initial opacity for animation */
     animation: fadeIn 2s ease forwards; /* animation properties */
