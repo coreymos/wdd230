@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #5C4033; /* Warm dark brown for text */
+    color: black; /* Warm dark brown for text */
     background-color: #FFF8DC; /* Calm cream background */
 }
 
@@ -13,15 +13,14 @@ header, footer {
 
 header h1 {
     font-family: 'Roboto', sans-serif;
-    color: #8B4513; /* Saddle brown color for headings */
+    color: #3b1e09; /* Saddle brown color for headings */
     margin: 20px; /* Remove default margin */
     font-size: 2em; /* Adjust the font size as needed */
-    /* Add other text styles as needed */
 }
 
 h1, h2 {
     font-family: 'Roboto', sans-serif;
-    color: #8B4513; /* Saddle brown color for headings */
+    color: #3b1e09; /* Saddle brown color for headings */
 }
 
 section {
