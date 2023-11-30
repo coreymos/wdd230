@@ -139,6 +139,10 @@ footer {
   background-color: #333; /* Darker background for header, nav, and footer */
 }
 
+.dark-mode footer p {
+  color: white;
+}
+
 /* Links color in dark mode */
 .dark-mode a {
   color: #9ad0f5; /* Lighter color for links in dark mode */
