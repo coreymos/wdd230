@@ -47,7 +47,7 @@ main h2 {
   grid-row: 2;
   margin: 20px auto;
   padding: 20px;
-  background-color: rgba(61, 152, 188, 0.544);
+  background-color: rgba(61, 152, 188, 0.9);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
 }
