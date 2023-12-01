@@ -6,7 +6,7 @@ body {
 
 header, footer {
     background-color: #DEB887; /* Warm tan color */
-    color: #333;
+    color: black;
     padding: 10px 0;
     text-align: center;
 }
@@ -144,3 +144,7 @@ main {
     background-color: #50280b; /* Background color for hover and focus */
     color: white; /* Text color for hover and focus */
 }
+
+#lastModified {
+    color: rgb(0, 0, 0);
+  }
