@@ -6,7 +6,7 @@ body {
 
 header, footer {
     background-color: #DEB887; /* Warm tan color */
-    color: white;
+    color: #333;
     padding: 10px 0;
     text-align: center;
 }
@@ -82,7 +82,7 @@ ul {
 
 #call-to-action a {
     display: inline-block; /* Makes the element inline but allows padding */
-    background-color: #8B4513; /* Button color */
+    background-color: #6A3310; /* Button color */
     color: white; /* Text color */
     padding: 10px 20px; /* Top & Bottom, Left & Right padding */
     text-align: center;
