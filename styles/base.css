@@ -215,3 +215,9 @@ body.dark-mode #dark-mode-toggle {
 	font-size: 2rem;
 	font-family:"Great Vibes", serif;
 }
+
+.card iframe {
+  max-width: 100%; /* Limits the width to the parent container width */
+  height: auto; /* Adjust height automatically */
+}
+
