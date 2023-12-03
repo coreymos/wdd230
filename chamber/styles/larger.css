@@ -5,6 +5,16 @@
         grid-gap: 20px; /* Adjust the gap between columns */
     }
 
+    .sidebar {
+        /* Adjustments for sidebar positioning in the grid layout */
+        grid-column: 1 / 2;
+    }
+
+    body {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
     #hero, #call-to-action, #events, #weather {
         grid-column: 2 / 3; /* These items will be in the right column */
     }
