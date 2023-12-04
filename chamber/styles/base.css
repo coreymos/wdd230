@@ -150,7 +150,7 @@ main {
     color: rgb(0, 0, 0);
 }
 
-.sidebar {
+.discover-page .sidebar {
     padding: 10px;
     background-color: #FFEFD5; /* Adjust background color as needed */
 }
