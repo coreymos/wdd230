@@ -229,7 +229,7 @@ main {
 }
 
 .image-gallery img {
-    width: 150%; /* Makes the image fill its container */
+    width: 100%; /* Makes the image fill its container */
     height: auto; /* Maintains aspect ratio */
     display: block; /* Ensures the image takes up the entire line */
     margin-bottom: 10px; /* Optional: Adds space between images */
