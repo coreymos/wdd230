@@ -5,12 +5,12 @@
         grid-gap: 20px; /* Adjust the gap between columns */
     }
 
-    .discover-page .sidebar {
+    .content-container .sidebar {
         /* Adjustments for sidebar positioning in the grid layout */
         grid-column: 1 / 2;
     }
 
-    .discover-page {
+    .content-container {
         display: grid;
         grid-template-columns: 1fr 3fr;
     }

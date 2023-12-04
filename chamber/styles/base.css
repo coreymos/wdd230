@@ -101,6 +101,8 @@ ul {
 main {
     display: flex;
     flex-direction: column;
+    align-items: center; /* Centers items horizontally in a column flex container */
+    justify-content: center; /* Centers items vertically in a column flex container */
 }
 
 #hero, #events, #weather, #spotlights {
@@ -150,8 +152,9 @@ main {
     color: rgb(0, 0, 0);
 }
 
-.discover-page .sidebar {
+.content-container .sidebar {
     padding: 10px;
+    margin: 30px;
     background-color: #FFEFD5; /* Adjust background color as needed */
 }
 
@@ -217,4 +220,18 @@ main {
 /* Handling Empty Cells */
 .calendar .days div.empty {
     background-color: transparent;
+}
+
+.image-gallery {
+    display: grid;
+    margin: 30px;
+    gap: 10px; /* Space between images */
+}
+
+.image-gallery img {
+    width: 150%; /* Makes the image fill its container */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Ensures the image takes up the entire line */
+    margin-bottom: 10px; /* Optional: Adds space between images */
+    border: 3px solid #000000;
 }
