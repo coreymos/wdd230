@@ -4,13 +4,17 @@
     --accent-color: #007bff;
 }
 
+#exampleForm {
+    color: var(--main-text-color);
+}
+
 main {
     display: block;
     margin: 20px auto;
 }
 
 form {
-    background-color: white;
+    background-color: rgb(235, 234, 234);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -52,5 +56,5 @@ input[type="submit"]:hover {
 #rangeValue {
     margin-left: 10px;
     font-weight: bold;
-    color: var(--accent-color);
+    color: var(--main-text-color);
 }

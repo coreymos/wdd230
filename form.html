@@ -52,9 +52,9 @@
             <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
                 title="Please enter a valid email address from byui.edu domain" required><br>
 
-            <label for="pageRating">Page Rating:</label>
+            <label for="pageRating">Page Rating:<span id="rangeValue">5</span><br></label>
             <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1">
-            <span id="rangeValue">5</span><br>
+            
 
             <input type="submit" value="Send Rating">
         </form>
