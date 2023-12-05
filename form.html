@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corey Moses - WDD 230 - Form</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development course assignment form">
+    <meta name="author" content="Corey Moses">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@300&display=swap");
+    </style>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/smaller.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/profile.webp" alt="Profile Image of Corey Moses">
+        <h1>Corey Moses</h1>
+        <button id="dark-mode-toggle">🌙</button>
+    </header>
+
+    <nav>
+        <button id="hamburger-btn">☰</button>
+        <ul id="menu-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#form">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="record.html" method="get" id="exampleForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" pattern="[a-zA-Z0-9]{8,}" required
+                title="Password must be at least 8 characters long and alpha-numeric"><br>
+
+            <label for="confirm_password">Password (Confirm):</label>
+            <input type="password" id="confirm_password" name="confirm_password" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                title="Please enter a valid email address from byui.edu domain" required><br>
+
+            <label for="pageRating">Page Rating:</label>
+            <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1">
+            <span id="rangeValue">5</span><br>
+
+            <input type="submit" value="Send Rating">
+        </form>
+    </main>
+
+    <footer>
+        <p id="copyright">
+            &copy;
+            <!-- The copyright year will be populated with JavaScript -->
+        </p>
+        <p id="lastModified">
+            <!-- Last modified date will be populated with JavaScript -->
+        </p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/pageVisits.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+
+</html>

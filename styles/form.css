@@ -1,0 +1,56 @@
+:root {
+    --main-bg-color: #f0f0f0;
+    --main-text-color: #333;
+    --accent-color: #007bff;
+}
+
+main {
+    display: block;
+    margin: 20px auto;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="range"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade of the accent color for contrast */
+}
+
+#rangeValue {
+    margin-left: 10px;
+    font-weight: bold;
+    color: var(--accent-color);
+}
