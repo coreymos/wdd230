@@ -43,4 +43,28 @@
     #nav-menu li {
         /* Style for list items, displayed horizontally */
     }
+
+    main.form-layout {
+        display: block; /* Resets the display property */
+        grid-template-columns: none; /* Resets the grid columns */
+        grid-gap: 0; /* Resets the grid gap */
+    }
+    
+    .form-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        justify-content: space-between; /* Space between form and membership info */
+        align-items: center; /* Align items to the start */
+        padding: 20px;
+    }
+
+    .membership-info {
+        grid-column: 2;
+        margin: 50px;
+    }
+
+    .form {
+        grid-column: 1;
+    }
+
 }

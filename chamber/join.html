@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Longview WA Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Longview WA Chamber of Commerce Website">
+    <meta name="author" content="Corey Moses">
+    <!-- Open Graph Meta Properties -->
+    <meta property="og:title" content="Longview WA Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://coreymos.github.io/wdd230/chamber/images/longview_wa.jpg">
+    <meta property="og:url" content="https://coreymos.github.io/wdd230/chamber/index.html">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="chamber_favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <h1>Chamber of Commerce: Longview, WA</h1>
+        <nav>
+            <button id="hamburger">☰</button>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="form-layout">
+        <div class="form-container">
+            <div class="form">
+                <form action="thankyou.html" method="get">
+                    <!-- Applicant's First Name -->
+                    <label for="firstName">First Name:
+                        <input type="text" id="firstName" name="firstName" required>
+                    </label>
+
+                    <!-- Applicant's Last Name -->
+                    <label for="lastName">Last Name:
+                        <input type="text" id="lastName" name="lastName" required>
+                    </label>
+
+                    <!-- Applicant's Title or Position -->
+                    <label for="title">Title/Position:
+                        <input type="text" id="title" name="title" pattern="[A-Za-z\- ]{7,}">
+                    </label>
+
+                    <!-- Email Address -->
+                    <label for="email">Email Address:
+                        <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                    </label>
+
+                    <!-- Mobile Phone Number -->
+                    <label for="phone">Mobile Phone Number:
+                        <input type="tel" id="phone" name="phone" required>
+                    </label>
+
+                    <!-- Business/Organization's Name -->
+                    <label for="organizationName">Organization Name:
+                        <input type="text" id="organizationName" name="organizationName" required>
+                    </label>
+
+                    <!-- Membership Level Selection -->
+                    <label for="membership">Membership Level:
+                        <select id="membership" name="membership">
+                            <option value="np">NP Membership - No Fee</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+
+                    <!-- Business/Organization's Description -->
+                    <label for="description">Organization Description:
+                        <textarea id="description" name="description"></textarea>
+                    </label>
+
+                    <!-- Timestamp -->
+                    <input type="hidden" id="timestamp" name="timestamp">
+
+                    <!-- Form Submission Button -->
+                    <input type="submit" value="Apply">
+                </form>
+            </div>
+
+            <div class="membership-info">
+                <!-- Membership level benefits information goes here -->
+                <h1>NP Membership</h1>
+                <p>Designed for non-profit organizations, the NP Membership offers a unique blend of community support
+                    and resources. Enjoy access to networking events, educational workshops, and promotional
+                    opportunities on our community bulletin. This tier is tailored to help non-profits thrive, providing
+                    a platform to connect, collaborate, and contribute to the local economy without any membership fees.
+                </p>
+                <h1>Bronze Membership</h1>
+                <p>Our Bronze Membership is the perfect starting point for small businesses seeking to establish their
+                    presence in the local market. Members at this level receive a listing in our online business
+                    directory, access to monthly networking events, and the opportunity to participate in member-only
+                    training sessions. Bronze members also benefit from discounted rates for chamber-sponsored workshops
+                    and events, providing a solid foundation for business growth and community engagement.</p>
+                <h1>Silver Membership</h1>
+                <p>Step up to Silver Membership and unlock additional benefits designed to amplify your business's
+                    reach. This tier includes all Bronze benefits plus enhanced visibility through featured spots in our
+                    newsletter and on our website. Silver members also gain access to exclusive business development
+                    seminars and have the opportunity to host chamber events, showcasing their business to a broader
+                    audience. This membership is ideal for businesses looking to expand their network and influence in
+                    the local community.</p>
+                <h1>Gold Membership</h1>
+                <p>The pinnacle of our membership tiers, Gold Membership, is designed for businesses seeking premier
+                    services and recognition. Gold members enjoy priority placement in all chamber publications and
+                    direct referrals from the chamber to potential clients. This tier also includes exclusive access to
+                    high-level networking events, round-table discussions with community leaders, and opportunities for
+                    joint marketing campaigns. As a Gold member, your business becomes a distinguished partner of the
+                    Chamber, leading the way in community development and innovation.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>✉ coreycm17@gmail.com</p>
+        <p>Developed by Corey Moses</p>
+        <p>Project for WDD 230</p>
+        <p id="lastModified">
+            <!-- Last modified date will be populated with JavaScript -->
+        </p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+</body>
+
+</html>
