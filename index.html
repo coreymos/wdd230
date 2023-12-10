@@ -56,39 +56,7 @@
 
     <section class="card">
       <h3>Learning Activities</h3>
-      <ul>
-        <li>
-          Week 01: <a href="week01/media-query.html">Media Query</a> |
-          <a href="week01/holygrail.html">Layout</a>
-        </li>
-        <li>
-          Week 02: <a href="week02/design.html">Design</a> |
-          <a href="https://codepen.io/coreymos/pen/LYqeEJQ">Hamburger</a> |
-          <a href="week02/bom.html">DOM</a>
-        </li>
-        <li>
-          Week 03: <a href="week03/images/landscape.webp">WebP</a> |
-          <a href="week03/lazyload.html">LazyLoad</a> |
-          <a href="week03/responsive-images.html">Responsive Images</a> |
-          <a href="week03/bom.html">localStorage</a>
-        </li>
-        <li>
-          Week 04: <a href="https://codepen.io/coreymos/pen/YzBdwbJ">Pseudo Class</a> |
-          <a href="week04/images/w3_complete.png">CSS Combinators</a> |
-          <a href="week04/tablebuild.html">HTML Tables</a> |
-          <a href="week04/form-start/index.html">Form</a>
-        </li>
-        <li>
-          Week 05: <a href="https://codepen.io/coreymos/pen/vYbbJdp">Pseudo-elements</a>
-          <a href="week05/new-ward-members.json">JSON</a> |
-          <a href="week05/prophets.html">Fetch</a> |
-          <a href="week05/weather.html">Weather API</a>
-        </li>
-        <li>
-          Week 06:
-        </li>
-        <!-- Learning activities will be populated here -->
-      </ul>
+      <ul id="learning-activities"></ul>
     </section>
     <section class="card">
       <h3>Information</h3>
@@ -100,7 +68,12 @@
             referrerpolicy="no-referrer-when-downgrade">
           </iframe>
         </li>
-        <li>Weather</li>
+        <li>
+          <div id="weather-container">
+            <img id="weather-icon" src="" alt="">
+            <span id="current-temp"></span>
+          </div>
+        </li>
         <li id="visitCounter">Page Visits: 0</li>
         <!-- Learning activities will be populated here -->
       </ul>
@@ -122,6 +95,9 @@
   <script src="scripts/pageVisits.js"></script>
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/darkmode.js"></script>
+  <script src="scripts/weather.js"></script>
+  <script src="scripts/links.js"></script>
+
 </body>
 
 </html>

@@ -221,3 +221,8 @@ body.dark-mode #dark-mode-toggle {
   height: auto; /* Adjust height automatically */
 }
 
+#weather-icon {
+  width: 3.5em; /* sets the image width to the same size as the font size of the surrounding text */
+  height: auto; /* maintains the aspect ratio of the image */
+  vertical-align: middle; /* aligns the image with the middle of the surrounding text */
+}
