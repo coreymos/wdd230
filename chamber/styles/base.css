@@ -308,3 +308,69 @@ input[type="submit"]:hover {
 .membership-info p {
     margin-bottom: 15px; /* Spacing after paragraphs */
 }
+
+.member-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.member-card img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.member-card h2 {
+    margin: 10px 0;
+}
+
+.member-card a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#toggleView {
+    padding: 10px 20px;
+    max-width: 200px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto; /* Center horizontally with equal margins */
+    grid-row: 2;
+    text-align: center; /* Add text-align center for older browsers */
+}
+
+#toggleView:hover {
+    background-color: #0056b3;
+}
+
+.display-layout.list-view .member-card {
+    background-color: rgb(189, 126, 126); /* Background color for member-card */
+    color: #333; /* Text color for member-card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for member-card */
+    margin: 10px; /* Margin around member-card */
+    padding: 15px; /* Padding inside member-card */
+    border-radius: 5px; /* Rounded corners for member-card */
+    text-align: center; /* Center text in member-card */
+}
+
+.display-layout.list-view .member-card img {
+    max-width: 100px; /* Max width for member-card image */
+    height: auto;
+    border-radius: 50%; /* Rounded image for member-card */
+}
+
+.display-layout.list-view .member-card h2 {
+    margin: 10px 0; /* Margin for member-card heading */
+}
+
+.display-layout.list-view .member-card a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #007bff; /* Link color for member-card */
+}
