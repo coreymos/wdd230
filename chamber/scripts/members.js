@@ -1,5 +1,5 @@
 // Define the base URL
-const baseURL = "https://coreymos.github.io/wdd230/";
+const baseURL = "https://coreymos.github.io/wdd230/chamber/";
 
 // Define the members JSON data file URL
 const membersURL = `${baseURL}data/members.json`;
