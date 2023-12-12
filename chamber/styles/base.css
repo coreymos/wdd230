@@ -383,3 +383,27 @@ input[type="submit"]:hover {
     border-radius: 10px; /* Add rounded corners with the desired radius */
     overflow: hidden; /* Clip content that extends beyond the rounded corners */
 }
+
+#eventBanner {
+    background-color: #4e250c; /* Blue background */
+    color: white; /* White text */
+    padding: 10px;
+    position: fixed; /* Fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; /* Center the text */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Slight shadow for depth */
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+#closeBanner {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px; /* Larger close icon */
+    cursor: pointer;
+    position: absolute;
+    right: 20px; /* Position it to the right */
+    top: 10px;
+}
