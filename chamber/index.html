@@ -41,7 +41,7 @@
             <h2>Company Spotlights</h2>
             <div class="spotlight">Spotlight 1 content...</div>
             <div class="spotlight">Spotlight 2 content...</div>
-            <div class="spotlight">Spotlight 3 content...</div>
+            <div class="spotlight"></div>
         </section>
 
         <!-- Hero Image Section -->
@@ -62,8 +62,24 @@
 
         <!-- Weather Card Section -->
         <section id="weather">
-            <h2>Weather</h2>
-            <p>Current weather details...</p>
+            <div id="weather-container">
+
+                <!-- New elements for 3-day forecast -->
+                <div id="forecast-container">
+                    <h2>Today</h2>
+                    <div class="forecast-day" id="day1">
+                        <!-- Day 1 forecast details will be inserted here -->
+                    </div>
+                    <h2>Tomorrow</h2>
+                    <div class="forecast-day" id="day2">
+                        <!-- Day 2 forecast details will be inserted here -->
+                    </div>
+                    <h2>The Next Day</h2>
+                    <div class="forecast-day" id="day3">
+                        <!-- Day 3 forecast details will be inserted here -->
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
@@ -80,6 +96,8 @@
 
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/spotlight.js"></script>
 </body>
 
 </html>

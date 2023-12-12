@@ -374,3 +374,12 @@ input[type="submit"]:hover {
     text-decoration: none; /* Remove underlines from links */
     color: #007bff; /* Link color for member-card */
 }
+
+#weather-icon {
+    background-color: rgb(43, 43, 43); /* Set the background color to black */
+    width: 3.5em; /* sets the image width to the same size as the font size of the surrounding text */
+    height: auto; /* maintains the aspect ratio of the image */
+    vertical-align: middle; /* aligns the image with the middle of the surrounding text */
+    border-radius: 10px; /* Add rounded corners with the desired radius */
+    overflow: hidden; /* Clip content that extends beyond the rounded corners */
+}
