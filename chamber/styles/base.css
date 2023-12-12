@@ -330,14 +330,14 @@ input[type="submit"]:hover {
 
 .member-card a {
     text-decoration: none;
-    color: #007bff;
+    color: #2c0cde;
 }
 
 #toggleView {
     padding: 10px 20px;
     max-width: 200px;
     background-color: #4CAF50;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -347,7 +347,7 @@ input[type="submit"]:hover {
 }
 
 #toggleView:hover {
-    background-color: #0056b3;
+    background-color: #2f7031;
 }
 
 .display-layout.list-view .member-card {
